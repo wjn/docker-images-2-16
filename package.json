@@ -1,0 +1,30 @@
+{
+  "name": "docker-images-2-16",
+  "version": "1.0.0",
+  "description": "devops docker lessons",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wjn/docker-images-2-16.git"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "containers"
+  ],
+  "author": "Will Nielsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjn/docker-images-2-16/issues"
+  },
+  "homepage": "https://github.com/wjn/docker-images-2-16#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
